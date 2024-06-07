@@ -21,4 +21,8 @@ func Array() {
 	arr4 := [4]string{"Volvo", "BMW", "Ford"}
 	fmt.Println(len(arr4)) // 4
 
+	// Slice
+	var slice []int = []int{1, 2, 3} //not fixed size
+	print(slice)
+
 }
