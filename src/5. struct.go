@@ -44,5 +44,5 @@ func Struct() {
 		name: "Hello",
 		age:  40,
 	}
-	print(pers3)
+	fmt.Println(pers3)
 }

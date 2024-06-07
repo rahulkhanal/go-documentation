@@ -8,5 +8,6 @@ func main() {
 	// mylib.Array()
 	// mylib.MyFunction(4, 9)
 	// mylib.Struct()
-	mylib.Map()
+	// mylib.Map()
+	mylib.Log()
 }
