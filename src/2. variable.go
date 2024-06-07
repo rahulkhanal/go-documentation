@@ -1,6 +1,9 @@
 package mylib
 
-import "fmt"
+import (
+	"fmt"
+	"reflect"
+)
 
 func Variable() {
 	var student1 string = "John" //type is string
@@ -18,6 +21,15 @@ func Variable() {
 	var x, y = 6, "Hello" // x=6 & y=Hello
 	fmt.Println(x, y)
 
+	// Constant variable
+	const PI = 3.14
+	// Multiple Constants Declaration
+	const (
+		A int     = 1
+		B float32 = 3.14
+		C string  = "Hi!"
+	)
+	print(reflect.TypeOf(A).String())
 }
 
 /*
