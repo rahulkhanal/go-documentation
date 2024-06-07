@@ -1,9 +1,7 @@
 package main
 
-import (
-	"fmt"
-)
+import mylib "godoc/src"
 
 func main() {
-	fmt.Println("")
+	mylib.Greet("World")
 }
