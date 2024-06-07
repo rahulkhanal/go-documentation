@@ -38,4 +38,11 @@ func Struct() {
 	fmt.Println("Age: ", pers2.age)
 	fmt.Println("Job: ", pers2.job)
 	fmt.Println("Salary: ", pers2.salary)
+
+	// Object
+	pers3 := Person{
+		name: "Hello",
+		age:  40,
+	}
+	print(pers3)
 }
